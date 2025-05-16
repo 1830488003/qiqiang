@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XX砌砖公司 - 专业砌筑服务</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 自定义一些基础样式，如果需要 */
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://via.placeholder.com/1920x800/cccccc/969696?text=砌砖背景图'); /* 替换为你的背景图 */
+            background-size: cover;
+            background-position: center;
+        }
+        .project-card img {
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- 导航栏 -->
+    <header class="bg-orange-600 text-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">XX砌砖公司</a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:text-orange-200">关于我们</a></li>
+                    <li><a href="#projects" class="hover:text-orange-200">工程案例</a></li>
+                    <li><a href="#contact" class="hover:text-orange-200">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 英雄区域/主视觉 -->
+    <section class="hero-bg text-white">
+        <div class="bg-black bg-opacity-50 h-[400px] md:h-[500px] flex flex-col justify-center items-center text-center px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">精湛工艺，筑造品质</h1>
+            <p class="text-lg md:text-2xl mb-8">您值得信赖的专业砌砖伙伴</p>
+            <a href="#contact" class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300">立即咨询</a>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-2 text-orange-600">关于我们</h2>
+            <div class="w-20 h-1 bg-orange-500 mx-auto mb-10"></div>
+            <div class="max-w-3xl mx-auto text-center text-gray-700 leading-relaxed">
+                <p class="mb-4">
+                    欢迎来到[XX砌砖公司]！我们是一家专注于提供高质量砌砖和石工服务的专业公司。凭借多年的行业经验和一支技术精湛的团队，我们致力于为住宅、商业和工业项目提供卓越的砌筑解决方案。
+                </p>
+                <p class="mb-4">
+                    我们的服务范围包括但不限于：新建筑砌砖、旧墙修复、烟囱修砌、挡土墙、砖石铺路以及各种定制石材工程。我们坚持使用优质材料，并严格遵守施工标准，确保每一个项目都能达到甚至超越客户的期望。
+                </p>
+                <p>
+                    在[XX砌砖公司]，我们相信诚信、专业和客户满意是我们成功的基石。我们期待与您合作，共同打造坚固美观的建筑。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 工程案例 -->
+    <section id="projects" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-2 text-orange-600">工程案例</h2>
+            <div class="w-20 h-1 bg-orange-500 mx-auto mb-10"></div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 项目1 -->
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x300/cccccc/969696?text=住宅外墙砌筑" alt="项目图片1" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">豪华住宅外墙</h3>
+                        <p class="text-gray-600 text-sm">采用高档红砖，精密施工，打造典雅外观。</p>
+                    </div>
+                </div>
+                <!-- 项目2 -->
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x300/cccccc/969696?text=商业建筑砖饰" alt="项目图片2" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">商业广场砖艺</h3>
+                        <p class="text-gray-600 text-sm">结合现代设计，提升商业空间格调与实用性。</p>
+                    </div>
+                </div>
+                <!-- 项目3 -->
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x300/cccccc/969696?text=花园景观墙" alt="项目图片3" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">私家花园景观墙</h3>
+                        <p class="text-gray-600 text-sm">精心设计的景观墙，为庭院增添自然美感。</p>
+                    </div>
+                </div>
+                <!-- 项目4 (可选) -->
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x300/cccccc/969696?text=特色烟囱修复" alt="项目图片4" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">老式建筑烟囱修复</h3>
+                        <p class="text-gray-600 text-sm">专业修复技术，恢复烟囱功能与历史风貌。</p>
+                    </div>
+                </div>
+                 <!-- 项目5 (可选) -->
+                 <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x300/cccccc/969696?text=砖砌挡土墙" alt="项目图片5" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">坚固挡土墙工程</h3>
+                        <p class="text-gray-600 text-sm">为坡地提供稳固支撑，兼具美观与实用。</p>
+                    </div>
+                </div>
+                 <!-- 项目6 (可选) -->
+                 <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x300/cccccc/969696?text=室内砖墙装饰" alt="项目图片6" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">复古室内砖墙</h3>
+                        <p class="text-gray-600 text-sm">打造个性化工业风或乡村风格的室内空间。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="py-16 bg-orange-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-2 text-orange-600">联系我们</h2>
+            <div class="w-20 h-1 bg-orange-500 mx-auto mb-10"></div>
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-700">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-orange-700">联系方式</h3>
+                        <p class="mb-2"><strong>电话:</strong> <a href="tel:13800138000" class="hover:text-orange-600">138-0013-8000</a> (王经理)</p>
+                        <p class="mb-2"><strong>邮箱:</strong> <a href="mailto:info@xxqizhuan.com" class="hover:text-orange-600">info@xxqizhuan.com</a></p>
+                        <p class="mb-2"><strong>地址:</strong> [您的城市] [您的街道] [门牌号]</p>
+                        <p class="mb-2"><strong>工作时间:</strong> 周一至周六 8:00 - 18:00</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-orange-700">给我们留言</h3>
+                        <form action="#" method="POST">
+                            <div class="mb-4">
+                                <label for="name" class="block text-sm font-medium text-gray-700">姓名</label>
+                                <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm" placeholder="您的姓名">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-sm font-medium text-gray-700">邮箱</label>
+                                <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm" placeholder="您的邮箱">
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block text-sm font-medium text-gray-700">留言</label>
+                                <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm" placeholder="您想咨询的内容..."></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-md transition duration-300">发送留言</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                 <!-- 可选：嵌入地图 -->
+                <div class="mt-12">
+                    <h3 class="text-xl font-semibold mb-4 text-center text-orange-700">公司位置</h3>
+                    <!-- 替换为您的地图嵌入代码, 例如Google Maps的iframe -->
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521162097604!2d106.82496401533086!3d-6.194749595512967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f423679a8a93%3A0x71c3c640a2c1844d!2sNational%20Monument!5e0!3m2!1sen!2sid!4v1605849095508!5m2!1sen!2sid" 
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- 或者使用图片代替 -->
+                        <!-- <img src="https://via.placeholder.com/800x400/cccccc/969696?text=地图位置" alt="公司位置" class="w-full h-auto rounded-lg"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 text-gray-300 py-8 text-center">
+        <div class="container mx-auto px-6">
+            <p>&copy; 2023 [XX砌砖公司]. All Rights Reserved.</p>
+            <p class="text-sm">网站由 <a href="#" class="text-orange-400 hover:underline">您的名字/工作室</a> 设计</p>
+        </div>
+    </footer>
+
+    <script>
+        // 平滑滚动到锚点
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // 简单的表单提交提示 (实际项目中需要后端处理)
+        const contactForm = document.querySelector('#contact form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // 这里可以添加AJAX提交逻辑
+                alert('感谢您的留言！我们会尽快与您联系。');
+                this.reset(); // 清空表单
+            });
+        }
+    </script>
+
+</body>
+</html>
